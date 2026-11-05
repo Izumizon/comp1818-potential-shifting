@@ -1,0 +1,94 @@
+{
+  "verified_at_utc": "2026-11-05T01:09:24.176148+00:00",
+  "status": "passed",
+  "authentication": "No GitHub token, Authorization header, cookie jar or owner session",
+  "implementation_url": "https://github.com/Izumizon/comp1818-potential-shifting",
+  "dataset_url": "https://github.com/Izumizon/comp1818-potential-shifting/tree/main/data",
+  "checks": [
+    {
+      "url": "https://api.github.com/repos/Izumizon/comp1818-potential-shifting",
+      "status": 200,
+      "bytes": 5918,
+      "sha256": "5ce04580cef1b45209b602656478485bbaa3bdf4fadf52c5801ee0b453768553",
+      "content_type": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://github.com/Izumizon/comp1818-potential-shifting",
+      "status": 200,
+      "bytes": 284436,
+      "sha256": "a69ad66e97354b7fcdc69db030409f917bf6185c2d97a2a887e0ba92fbd510c4",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://github.com/Izumizon/comp1818-potential-shifting/tree/main/data",
+      "status": 200,
+      "bytes": 211428,
+      "sha256": "1a6952818c7004290d8b33039738d9c898b15d16644f2fea7aaa3860d3140428",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Izumizon/comp1818-potential-shifting/main/gridshift/environment.py",
+      "status": 200,
+      "bytes": 4544,
+      "sha256": "621538fcb2256c78de365f49115422f94f8628bcacdaa21e46b7939c82ef2eed",
+      "content_type": "text/plain; charset=utf-8",
+      "matches_local_file": "gridshift/environment.py"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Izumizon/comp1818-potential-shifting/main/gridshift/learner.py",
+      "status": 200,
+      "bytes": 1927,
+      "sha256": "281228cd5ba20cb6fda3331c4d10f505e22611155a87d3bc3b10b5c1a7464034",
+      "content_type": "text/plain; charset=utf-8",
+      "matches_local_file": "gridshift/learner.py"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Izumizon/comp1818-potential-shifting/main/gridshift/potentials.py",
+      "status": 200,
+      "bytes": 3925,
+      "sha256": "9591de2d5c1c7e87502acc0f123d8bb2deff9c38ed0cd1154c757a49b08b5ce2",
+      "content_type": "text/plain; charset=utf-8",
+      "matches_local_file": "gridshift/potentials.py"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Izumizon/comp1818-potential-shifting/main/gridshift/engine.py",
+      "status": 200,
+      "bytes": 3443,
+      "sha256": "1afb0e64374fff3dfb71e10c4988d74096bab1968d772108b253ec1e84c0d109",
+      "content_type": "text/plain; charset=utf-8",
+      "matches_local_file": "gridshift/engine.py"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Izumizon/comp1818-potential-shifting/main/data/environments.json",
+      "status": 200,
+      "bytes": 2535,
+      "sha256": "647cdb8f223c54de570f447633ca9b97da8ce387bf03046878ce50405c3ce359",
+      "content_type": "text/plain; charset=utf-8",
+      "matches_local_file": "data/environments.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Izumizon/comp1818-potential-shifting/main/data/open25_goal.npz",
+      "status": 200,
+      "bytes": 4474,
+      "sha256": "bd1f5e7b2fe8d99648313129e844b7347403614ce7724a81b7616ca135f9fce4",
+      "content_type": "application/octet-stream",
+      "matches_local_file": "data/open25_goal.npz"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Izumizon/comp1818-potential-shifting/main/data/open10_goal.npz",
+      "status": 200,
+      "bytes": 1470,
+      "sha256": "9faf43e5565fdf610d6bf8e471687987878927b407a183e7a059e1bba1af7dd8",
+      "content_type": "application/octet-stream",
+      "matches_local_file": "data/open10_goal.npz"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Izumizon/comp1818-potential-shifting/main/data/detour10_goal.npz",
+      "status": 200,
+      "bytes": 1516,
+      "sha256": "33b72ee9211268d45f43f4c8185007493199c99a6219ea895f7bdbc01d221212",
+      "content_type": "application/octet-stream",
+      "matches_local_file": "data/detour10_goal.npz"
+    }
+  ]
+}

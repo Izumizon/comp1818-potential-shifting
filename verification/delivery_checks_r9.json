@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "reviewed_R8_files_preserved": 3774,
+  "immutable_scientific_source_and_evidence_files": 3709,
+  "methodology_changed": false,
+  "full_campaign_rerun": false,
+  "tests": {
+    "passed": 54,
+    "seconds_reported_by_pytest": 7.98,
+    "record": "verification/tests_r9.xml"
+  },
+  "pdf": {
+    "A4": true,
+    "total_pages": 6,
+    "counted_pages_including_AI_reflection": 4,
+    "AI_reflection_words": 79,
+    "selectable": true,
+    "encrypted": false,
+    "official_class_and_bst_identical": true,
+    "both_publication_link_annotations_present": true,
+    "visual_review": "All six final rendered pages inspected; no clipping or overlap."
+  },
+  "publication_gate": {
+    "genuine_urls": "passed; source regenerated identically",
+    "negative_cases": [
+      {
+        "case": "missing",
+        "outcome": "rejected",
+        "message": "Final submission requires genuine, verified implementation and dataset URLs"
+      },
+      {
+        "case": "fake-example",
+        "outcome": "rejected",
+        "message": "example domains are not publication evidence"
+      },
+      {
+        "case": "insecure-http",
+        "outcome": "rejected",
+        "message": "invalid HTTPS publication URL"
+      }
+    ]
+  },
+  "public_access": {
+    "status": "passed",
+    "record": "verification/public_access_r9.json"
+  },
+  "institutional_AI_permission": "unresolved",
+  "teaching_team_topic_extension_acceptance": "unresolved",
+  "student_independent_review": "required; not asserted complete",
+  "Moodle_submission": "not performed"
+}

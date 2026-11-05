@@ -1,10 +1,20 @@
 # COMP1818 potential-shifting investigation
 
-**Reviewer #8 revision:** read `verification/REVISION_R8.md` first. The original
-delivery is preserved separately; this directory contains the revised checks,
-post-hoc interaction analysis and four-counted-page review report. Historical
-verification records retain their original dates/counts and are not current
-claims about this revision.
+**Final delivery after reviewer #9:** the reviewed methodology and original
+experimental evidence are unchanged. Implementation and generated dataset links
+are public and checked without owner authentication. Institutional AI-policy
+and teaching-team topic/extension confirmation remain open. No Moodle submission
+has been performed.
+
+- Implementation: https://github.com/Izumizon/comp1818-potential-shifting
+- Dataset: https://github.com/Izumizon/comp1818-potential-shifting/tree/main/data
+- Saved results and models: the repository's `results/` directory.
+
+`verification/public_access_r9.json` records unauthenticated access and byte
+comparisons. `verification/REVIEWER_09_RECORD.md` distinguishes the reported
+cross-environment review from same-host checks. Earlier archives are preserved;
+historical records retain their original dates/counts and are not current claims
+about publication status.
 
 This is an AI-generated research project and report prepared under the expanded
 AI permission reported by the user. It contains executed experiments, not a
@@ -30,14 +40,14 @@ reproduction. See `PROTOCOL.md` for the precise formulas, scope and limitations.
 
 ## Set up and run (Python 3.12)
 
-Extract the archive, open a terminal in its `COMP1818-project-r8` directory, and
+Extract the archive, open a terminal in its `COMP1818-project-r9` directory, and
 first verify the delivered files with `python verify_package.py`. This uses only
 the standard library. Use a fresh environment for experiments. On Windows:
 
 ```powershell
 python -m venv .venv
 .venv\Scripts\python.exe -m pip install -r requirements-lock.txt
-.venv\Scripts\python.exe -m pytest -q --junitxml=verification/tests_r8.xml
+.venv\Scripts\python.exe -m pytest -q --junitxml=verification/new-tests.xml
 .venv\Scripts\python.exe run.py --suite pilot
 .venv\Scripts\python.exe benchmark.py
 ```
@@ -72,7 +82,10 @@ Numba JIT/cache loading is included in the first applicable call, not a claim
 that every subsequent run recompiles. NumPy PCG64 draws are pregenerated in
 separate streams; the readable and accelerated update paths are tested against
 one another. Exact reruns were checked on this host. Floating-point and compiler
-differences may prevent cross-platform bitwise equality.
+differences may prevent cross-platform bitwise equality. Independent review
+reported exact discrete observations and four tolerance-only Q/potential
+comparisons across environments; universal bit-exact reproducibility is not
+claimed. Those separate reviewer logs were not supplied here.
 
 ## Evidence and file map
 
@@ -123,8 +136,13 @@ with Tectonic 0.17.0. The body including AI reflection is checked against four p
 references and the separate declaration follow. Figures are exported by
 Matplotlib and tables/equations are typeset, not screenshots.
 
-The delivered PDF is for review. No public implementation/data URL has been
-created, and no Moodle upload has been performed. Use `PUBLICATION.md` to finish
-the required external links. Confirm the reported AI-policy amendment and the
-scope of the method extension with the teaching team, and independently review
-and understand the entire submission. No mark prediction is warranted.
+The report contains the genuine implementation/data links above. Build with
+`python build_report.py --require-published`; this requires populated HTTPS
+URLs. Run `python verify_publication.py --output verification/new-public-check.json`
+to recheck access without owner authentication. Access can change after delivery;
+check it again before submitting.
+
+Confirm the reported AI-policy amendment and topic/method-extension scope with
+the teaching team, then independently review and understand the entire work.
+These confirmations remain open items in the final readiness checklist. No mark
+prediction or submission-ready claim is made.

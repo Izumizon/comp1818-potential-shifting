@@ -1,5 +1,5 @@
 {
-  "source": "analysis/summary.json, analysis/posthoc_interaction.json, verification/results_check_r8.json and tests_r8.xml",
+  "source": "analysis/summary.json, analysis/posthoc_interaction.json, verification/results_check_r8.json and tests_r9.xml",
   "primary": {
     "mean": 0.01133571069643311,
     "sd": 0.00876496333484066,
@@ -42,5 +42,5 @@
   },
   "tests": 54,
   "reflection_word_count": 79,
-  "publication_complete": false
+  "publication_complete": true
 }

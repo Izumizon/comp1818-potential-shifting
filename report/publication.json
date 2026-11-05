@@ -1,5 +1,6 @@
 {
-  "implementation_url": null,
-  "dataset_url": null,
-  "status": "External publication and teaching-team access verification pending."
+  "implementation_url": "https://github.com/Izumizon/comp1818-potential-shifting",
+  "dataset_url": "https://github.com/Izumizon/comp1818-potential-shifting/tree/main/data",
+  "status": "Public URLs checked by unauthenticated HTTP GETs; selected source and dataset bytes match local files.",
+  "verification_record": "verification/public_access_r9.json"
 }

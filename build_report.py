@@ -18,7 +18,7 @@ def build(require_published=False):
     summary=json.loads((ROOT/"analysis/summary.json").read_text())
     audit=json.loads((ROOT/"verification/results_check_r8.json").read_text())
     posthoc=json.loads((ROOT/"analysis/posthoc_interaction.json").read_text())
-    suite=ET.parse(ROOT/"verification/tests_r8.xml").getroot().find('testsuite')
+    suite=ET.parse(ROOT/"verification/tests_r9.xml").getroot().find('testsuite')
     assert suite is not None and int(suite.attrib['failures']) == int(suite.attrib['errors']) == 0
     test_count=int(suite.attrib['tests'])
     links=json.loads((ROOT/"report/publication.json").read_text())
@@ -32,7 +32,9 @@ def build(require_published=False):
             raise ValueError("invalid HTTPS publication URL")
         if "example." in parsed.netloc:
             raise ValueError("example domains are not publication evidence")
-        return r"\url{"+url+"}"
+        label = ('Public repository: code, tests and saved results' if name == 'implementation_url'
+                 else 'Generated environment data and documentation')
+        return r"\href{"+url+"}{"+label+"}"
     source_rows=[]
     rows=list(csv.DictReader((ROOT/"analysis/run_summary.csv").open(encoding="utf-8")))
     for reward in ("goal","step"):
@@ -197,7 +199,7 @@ Discounted return emphasises early arrival and can hide distinctions among faile
 
 For the fully known maps, symbolic BFS is more direct than learning: the executed reference finds 48, 18 and 36-step paths and succeeds in every retained deterministic evaluation. It has exact transition information and no training, so this is an informed reference rather than an information-matched learner comparison. The random policy reaches the goal in @@RANDOM_OPEN@@ of open10 and @@RANDOM_DETOUR@@ of detour10 evaluation episodes. These contrasts expose the role of task knowledge; they do not justify deploying RL for a problem already solved by known-map search. Real navigation would require evidence about unknown dynamics, observation uncertainty and model costs that these toy tasks do not provide.
 
-The @@TESTS@@ executed tests cover transitions, algebraic identities, tiny-MDP invariance, evaluation isolation, accelerated/reference agreement and verification contracts. An independent audit checks @@EPISODES@@ evaluation episodes and configuration identity. Floating arithmetic uses $\mathrm{rtol}=\mathrm{atol}=10^{-12}$; lengths, flags, counts and checkpoints remain exact. Bit identity is separately reported: all arrays in six fresh reruns match bit-for-bit on this host. Tolerance does not guarantee cross-platform trajectory agreement near action ties. This is bounded evidence, not a correctness proof. A reserved-seed pilot preceded @@TRAINING@@ training and @@EVALUATION@@ evaluation transitions. All failures, configurations and Q-tables are retained.
+The @@TESTS@@ executed tests cover transitions, algebraic identities, tiny-MDP invariance, evaluation isolation, accelerated/reference agreement and verification contracts. An independent audit checks @@EPISODES@@ evaluation episodes and configuration identity. Floating arithmetic uses $\mathrm{rtol}=\mathrm{atol}=10^{-12}$; lengths, flags, counts and checkpoints remain exact. Six selected same-host reruns were bit-exact. Independent cross-environment review reported exact discrete observations but four tolerance-only Q/potential comparisons; universal bit identity is not claimed. Near action ties, even small arithmetic differences can alter later trajectories. This is bounded evidence, not a correctness proof. A reserved-seed pilot preceded @@TRAINING@@ training and @@EVALUATION@@ evaluation transitions. All failures, configurations and Q-tables are retained.
 
 % Balance the final counted page without changing the supplied geometry or type.
 \balance
@@ -260,7 +262,7 @@ The prespecified pooled smoothing contrast is positive but depends on scale and 
     template=template[:start]+block+"\\end{minipage}\\par\\medskip"+template[end+len("\\end{table}"):]
     assert "@@" not in template
     (ROOT/"report/main.tex").write_text(template,encoding="utf-8")
-    (ROOT/"report/generated_claims.json").write_text(json.dumps({"source":"analysis/summary.json, analysis/posthoc_interaction.json, verification/results_check_r8.json and tests_r8.xml",
+    (ROOT/"report/generated_claims.json").write_text(json.dumps({"source":"analysis/summary.json, analysis/posthoc_interaction.json, verification/results_check_r8.json and tests_r9.xml",
         "primary":p,"posthoc_interaction":posthoc['pooled'],"tests":test_count,
         "reflection_word_count":words,"publication_complete":bool(links.get('implementation_url') and links.get('dataset_url'))},indent=2))
     print(f"Generated report source; AI reflection {words} words; real publication links: {bool(links.get('implementation_url') and links.get('dataset_url'))}")
