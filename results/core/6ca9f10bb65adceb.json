@@ -1,0 +1,72 @@
+{
+  "run_id": "6ca9f10bb65adceb",
+  "config": {
+    "phase": "core",
+    "map_name": "detour10",
+    "reward": "goal",
+    "method": "shifted",
+    "normalisation": "literal",
+    "corruption": 0.25,
+    "seed": 4,
+    "q_initial": 0.0,
+    "gamma": 0.95,
+    "alpha": 0.1,
+    "epsilon": 0.05,
+    "evaluation_epsilon": 0,
+    "steps": 50000,
+    "eval_every": 1000,
+    "eval_episodes": 10,
+    "cutoff": "bootstrap",
+    "smoothing_strength": 1.0
+  },
+  "engine_sha256": "39cfdf4ae14f033f6e3d4023017c8d75f9b6a5cdaaafd4493c2466043cf4857c",
+  "potential": {
+    "before": {
+      "directional_consistency": 0.6854838709677419,
+      "tie_fraction": 0.016129032258064516,
+      "edge_energy": 30.524702776977392,
+      "changed_fraction": 0.20987654320987653,
+      "minimum": 1.0,
+      "maximum": 26.39553901872968,
+      "mean": 7.47753435638566,
+      "std": 5.945021544829551,
+      "sha256": "66658668b7c02cbd8561ad0dba4b73d5168d1049c0255b73de5d5aa4f7f2696f"
+    },
+    "after": {
+      "directional_consistency": 0.6854838709677419,
+      "tie_fraction": 0.016129032258064516,
+      "edge_energy": 30.524702776977392,
+      "changed_fraction": 0.20987654320987653,
+      "minimum": 1.0,
+      "maximum": 26.39553901872968,
+      "mean": 7.47753435638566,
+      "std": 5.945021544829551,
+      "sha256": "66658668b7c02cbd8561ad0dba4b73d5168d1049c0255b73de5d5aa4f7f2696f"
+    },
+    "b": 0.0,
+    "shifted_sha256": "66658668b7c02cbd8561ad0dba4b73d5168d1049c0255b73de5d5aa4f7f2696f"
+  },
+  "metrics": {
+    "mean_checkpoint_return": 0.0,
+    "final_return": 0.0,
+    "final_success": 0.0,
+    "mean_success": 0.0,
+    "evaluation_steps": 125000,
+    "training_steps": 50000,
+    "checkpoints": 50,
+    "evaluation_episodes": 500,
+    "training_goals": 31,
+    "training_cutoffs": 175
+  },
+  "timing": {
+    "preparation_seconds": 0.005781700019724667,
+    "kernel_seconds_including_evaluation": 0.0020057999645359814,
+    "total_seconds_including_save": 0.009851699986029416
+  },
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.4",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD"
+  }
+}

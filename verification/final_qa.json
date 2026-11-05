@@ -1,0 +1,15 @@
+{
+  "official_class_and_bst_identical": true,
+  "pdf": {
+    "pages": 5,
+    "counted_report_pages_including_reflection": 3,
+    "selectable_text": true,
+    "A4": true,
+    "encrypted": false,
+    "visual_review": "All five rendered pages inspected; no clipping or overlap."
+  },
+  "qa_correction": "Initial heading string assertion failed on the PDF fl ligature. Unicode NFKC normalisation corrected the check; report unchanged.",
+  "publication_gate": "Expected rejection of pending links; LaTeX unchanged.",
+  "clean_copy_tests": "..................................                                       [100%]\n34 passed in 5.53s",
+  "bfs_reference": "Six legal shortest paths agree with all 600 retained reference episodes."
+}

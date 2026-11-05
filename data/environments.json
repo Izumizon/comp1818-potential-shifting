@@ -1,0 +1,148 @@
+[
+  {
+    "size": 25,
+    "start": 0,
+    "goal": 624,
+    "walls": [],
+    "reward": "goal",
+    "max_steps": 250,
+    "name": "open25",
+    "file": "open25_goal.npz",
+    "state_encoding": "row*size+col",
+    "actions": [
+      "up",
+      "right",
+      "down",
+      "left"
+    ],
+    "collection_cutoff_is_true_terminal": false
+  },
+  {
+    "size": 25,
+    "start": 0,
+    "goal": 624,
+    "walls": [],
+    "reward": "step",
+    "max_steps": 250,
+    "name": "open25",
+    "file": "open25_step.npz",
+    "state_encoding": "row*size+col",
+    "actions": [
+      "up",
+      "right",
+      "down",
+      "left"
+    ],
+    "collection_cutoff_is_true_terminal": false
+  },
+  {
+    "size": 10,
+    "start": 0,
+    "goal": 99,
+    "walls": [],
+    "reward": "goal",
+    "max_steps": 250,
+    "name": "open10",
+    "file": "open10_goal.npz",
+    "state_encoding": "row*size+col",
+    "actions": [
+      "up",
+      "right",
+      "down",
+      "left"
+    ],
+    "collection_cutoff_is_true_terminal": false
+  },
+  {
+    "size": 10,
+    "start": 0,
+    "goal": 99,
+    "walls": [],
+    "reward": "step",
+    "max_steps": 250,
+    "name": "open10",
+    "file": "open10_step.npz",
+    "state_encoding": "row*size+col",
+    "actions": [
+      "up",
+      "right",
+      "down",
+      "left"
+    ],
+    "collection_cutoff_is_true_terminal": false
+  },
+  {
+    "size": 10,
+    "start": 0,
+    "goal": 99,
+    "walls": [
+      3,
+      13,
+      16,
+      23,
+      26,
+      33,
+      36,
+      43,
+      46,
+      53,
+      56,
+      63,
+      66,
+      73,
+      76,
+      83,
+      86,
+      96
+    ],
+    "reward": "goal",
+    "max_steps": 250,
+    "name": "detour10",
+    "file": "detour10_goal.npz",
+    "state_encoding": "row*size+col",
+    "actions": [
+      "up",
+      "right",
+      "down",
+      "left"
+    ],
+    "collection_cutoff_is_true_terminal": false
+  },
+  {
+    "size": 10,
+    "start": 0,
+    "goal": 99,
+    "walls": [
+      3,
+      13,
+      16,
+      23,
+      26,
+      33,
+      36,
+      43,
+      46,
+      53,
+      56,
+      63,
+      66,
+      73,
+      76,
+      83,
+      86,
+      96
+    ],
+    "reward": "step",
+    "max_steps": 250,
+    "name": "detour10",
+    "file": "detour10_step.npz",
+    "state_encoding": "row*size+col",
+    "actions": [
+      "up",
+      "right",
+      "down",
+      "left"
+    ],
+    "collection_cutoff_is_true_terminal": false
+  }
+]

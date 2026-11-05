@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "preservation": {
+    "original_delivery_files_unchanged": 3744,
+    "unchanged_evidence_and_engine_files_in_revision": 3712,
+    "original_archive_sha256_unchanged": true
+  },
+  "official_class_and_bst_identical": true,
+  "pdf": {
+    "A4": true,
+    "pages": 6,
+    "counted_pages_including_reflection": 4,
+    "selectable_text": true,
+    "encrypted": false,
+    "visual_review": "All six final rendered pages inspected; no overlap or clipping.",
+    "compile": "Tectonic 0.17.0; no overfull boxes or missing/unresolved content."
+  },
+  "publication_gate": "Expected rejection; missing URLs remain a hard submission gate; source unchanged.",
+  "independent_raw_array_interaction": 0.007358823883940836,
+  "selected_reruns": "All six bit-exact on this host; tolerance and identity contracts separately reported."
+}

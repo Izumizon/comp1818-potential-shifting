@@ -1,0 +1,221 @@
+{
+  "checked_runs": 1800,
+  "checked_evaluation_episodes": 3750000,
+  "checked_evaluation_transitions": 722007156,
+  "fresh_deterministic_reruns": 6,
+  "identical_zero_shift_pairs": 260,
+  "status": "passed",
+  "floating_tolerances": {
+    "rtol": 1e-12,
+    "atol": 1e-12
+  },
+  "strict_contract": "config/types, IDs, engine hashes, integer reward totals, lengths, flags, counts, checkpoints",
+  "require_bit_exact_reruns": false,
+  "reruns": [
+    {
+      "run_id": "1351aa182b9681f4",
+      "metrics": {
+        "bit_exact": true
+      },
+      "observations": {
+        "bit_exact": true,
+        "discrete": {
+          "bit_exact": true,
+          "comparison": "exact discrete",
+          "max_abs_error": 0.0
+        },
+        "discounted_return": {
+          "bit_exact": true,
+          "comparison": "tolerance float64",
+          "max_abs_error": 0.0
+        }
+      },
+      "q_final": {
+        "bit_exact": true,
+        "comparison": "tolerance float64",
+        "max_abs_error": 0.0
+      },
+      "potential": {
+        "bit_exact": true,
+        "comparison": "tolerance float64",
+        "max_abs_error": 0.0
+      },
+      "checkpoints": {
+        "bit_exact": true,
+        "comparison": "exact discrete",
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "run_id": "05013560167a3b8b",
+      "metrics": {
+        "bit_exact": true
+      },
+      "observations": {
+        "bit_exact": true,
+        "discrete": {
+          "bit_exact": true,
+          "comparison": "exact discrete",
+          "max_abs_error": 0.0
+        },
+        "discounted_return": {
+          "bit_exact": true,
+          "comparison": "tolerance float64",
+          "max_abs_error": 0.0
+        }
+      },
+      "q_final": {
+        "bit_exact": true,
+        "comparison": "tolerance float64",
+        "max_abs_error": 0.0
+      },
+      "potential": {
+        "bit_exact": true,
+        "comparison": "tolerance float64",
+        "max_abs_error": 0.0
+      },
+      "checkpoints": {
+        "bit_exact": true,
+        "comparison": "exact discrete",
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "run_id": "09a75a1844a0990c",
+      "metrics": {
+        "bit_exact": true
+      },
+      "observations": {
+        "bit_exact": true,
+        "discrete": {
+          "bit_exact": true,
+          "comparison": "exact discrete",
+          "max_abs_error": 0.0
+        },
+        "discounted_return": {
+          "bit_exact": true,
+          "comparison": "tolerance float64",
+          "max_abs_error": 0.0
+        }
+      },
+      "q_final": {
+        "bit_exact": true,
+        "comparison": "tolerance float64",
+        "max_abs_error": 0.0
+      },
+      "potential": {
+        "bit_exact": true,
+        "comparison": "tolerance float64",
+        "max_abs_error": 0.0
+      },
+      "checkpoints": {
+        "bit_exact": true,
+        "comparison": "exact discrete",
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "run_id": "1d41ef728f32d86f",
+      "metrics": {
+        "bit_exact": true
+      },
+      "observations": {
+        "bit_exact": true,
+        "discrete": {
+          "bit_exact": true,
+          "comparison": "exact discrete",
+          "max_abs_error": 0.0
+        },
+        "discounted_return": {
+          "bit_exact": true,
+          "comparison": "tolerance float64",
+          "max_abs_error": 0.0
+        }
+      },
+      "q_final": {
+        "bit_exact": true,
+        "comparison": "tolerance float64",
+        "max_abs_error": 0.0
+      },
+      "potential": {
+        "bit_exact": true,
+        "comparison": "tolerance float64",
+        "max_abs_error": 0.0
+      },
+      "checkpoints": {
+        "bit_exact": true,
+        "comparison": "exact discrete",
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "run_id": "089e270603e902e9",
+      "metrics": {
+        "bit_exact": true
+      },
+      "observations": {
+        "bit_exact": true,
+        "discrete": {
+          "bit_exact": true,
+          "comparison": "exact discrete",
+          "max_abs_error": 0.0
+        },
+        "discounted_return": {
+          "bit_exact": true,
+          "comparison": "tolerance float64",
+          "max_abs_error": 0.0
+        }
+      },
+      "q_final": {
+        "bit_exact": true,
+        "comparison": "tolerance float64",
+        "max_abs_error": 0.0
+      },
+      "potential": {
+        "bit_exact": true,
+        "comparison": "tolerance float64",
+        "max_abs_error": 0.0
+      },
+      "checkpoints": {
+        "bit_exact": true,
+        "comparison": "exact discrete",
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "run_id": "040bcf9d11450738",
+      "metrics": {
+        "bit_exact": true
+      },
+      "observations": {
+        "bit_exact": true,
+        "discrete": {
+          "bit_exact": true,
+          "comparison": "exact discrete",
+          "max_abs_error": 0.0
+        },
+        "discounted_return": {
+          "bit_exact": true,
+          "comparison": "tolerance float64",
+          "max_abs_error": 0.0
+        }
+      },
+      "q_final": {
+        "bit_exact": true,
+        "comparison": "tolerance float64",
+        "max_abs_error": 0.0
+      },
+      "potential": {
+        "bit_exact": true,
+        "comparison": "tolerance float64",
+        "max_abs_error": 0.0
+      },
+      "checkpoints": {
+        "bit_exact": true,
+        "comparison": "exact discrete",
+        "max_abs_error": 0.0
+      }
+    }
+  ],
+  "scope": "tight numerical agreement plus separately reported bit identity; not arbitrary correctness proof"
+}

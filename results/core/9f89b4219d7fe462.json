@@ -1,0 +1,72 @@
+{
+  "run_id": "9f89b4219d7fe462",
+  "config": {
+    "phase": "core",
+    "map_name": "detour10",
+    "reward": "goal",
+    "method": "smooth_pbrs",
+    "normalisation": "literal",
+    "corruption": 0.0,
+    "seed": 3,
+    "q_initial": -1.0,
+    "gamma": 0.95,
+    "alpha": 0.1,
+    "epsilon": 0.05,
+    "evaluation_epsilon": 0,
+    "steps": 50000,
+    "eval_every": 1000,
+    "eval_episodes": 10,
+    "cutoff": "bootstrap",
+    "smoothing_strength": 1.0
+  },
+  "engine_sha256": "39cfdf4ae14f033f6e3d4023017c8d75f9b6a5cdaaafd4493c2466043cf4857c",
+  "potential": {
+    "before": {
+      "directional_consistency": 0.8548387096774194,
+      "tie_fraction": 0.0,
+      "edge_energy": 3.15256898450752,
+      "changed_fraction": 0.0,
+      "minimum": 1.0,
+      "maximum": 26.39553901872968,
+      "mean": 7.47753435638566,
+      "std": 5.945021544829551,
+      "sha256": "b3fd8959470139e0fee4ef5035b6d236bd05e5d02916c337925164dd150c590e"
+    },
+    "after": {
+      "directional_consistency": 0.8548387096774194,
+      "tie_fraction": 0.0,
+      "edge_energy": 2.094211312536028,
+      "changed_fraction": 1.0,
+      "minimum": 1.1061630334067725,
+      "maximum": 24.084089510759853,
+      "mean": 7.47753435638566,
+      "std": 5.761054401316087,
+      "sha256": "ff2fd98c176957b5b8e75ebb7098747103b53c9a5f95befa15851127719e1d3f"
+    },
+    "b": 0.0,
+    "shifted_sha256": "ff2fd98c176957b5b8e75ebb7098747103b53c9a5f95befa15851127719e1d3f"
+  },
+  "metrics": {
+    "mean_checkpoint_return": 0.0,
+    "final_return": 0.0,
+    "final_success": 0.0,
+    "mean_success": 0.0,
+    "evaluation_steps": 125000,
+    "training_steps": 50000,
+    "checkpoints": 50,
+    "evaluation_episodes": 500,
+    "training_goals": 37,
+    "training_cutoffs": 174
+  },
+  "timing": {
+    "preparation_seconds": 0.008832800027448684,
+    "kernel_seconds_including_evaluation": 0.0017096999799832702,
+    "total_seconds_including_save": 0.012542899989057332
+  },
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.4",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD"
+  }
+}

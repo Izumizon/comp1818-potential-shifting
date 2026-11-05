@@ -1,0 +1,25 @@
+{
+  "purpose": "cost profile only; no learned-performance inference",
+  "warmup_or_cache_load_seconds": 0.4194599000038579,
+  "training_only_steps": 500000,
+  "training_only_seconds": 0.006979799945838749,
+  "training_steps_per_second": 71635290.96533668,
+  "evaluation_only_steps": 1000000,
+  "evaluation_only_seconds": 0.019006600021384656,
+  "evaluation_steps_per_second": 52613302.688270524,
+  "estimates_exclude": "result IO, RNG generation, preparation, import/startup and system contention",
+  "suite_upper_step_counts": {
+    "reconstruction": {
+      "runs": 300,
+      "training_steps": 75000000,
+      "max_evaluation_steps": 750000000,
+      "kernel_seconds_estimate_at_measured_rates": 15.301920007914305
+    },
+    "core": {
+      "runs": 1500,
+      "training_steps": 75000000,
+      "max_evaluation_steps": 187500000,
+      "kernel_seconds_estimate_at_measured_rates": 4.6107074958854355
+    }
+  }
+}

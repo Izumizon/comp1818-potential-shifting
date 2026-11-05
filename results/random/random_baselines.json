@@ -1,0 +1,482 @@
+[
+  {
+    "map_name": "open25",
+    "reward": "goal",
+    "seed": 0,
+    "episodes": 100,
+    "return": 0.0,
+    "success": 0.0
+  },
+  {
+    "map_name": "open25",
+    "reward": "goal",
+    "seed": 1,
+    "episodes": 100,
+    "return": 0.0,
+    "success": 0.0
+  },
+  {
+    "map_name": "open25",
+    "reward": "goal",
+    "seed": 2,
+    "episodes": 100,
+    "return": 0.0,
+    "success": 0.0
+  },
+  {
+    "map_name": "open25",
+    "reward": "goal",
+    "seed": 3,
+    "episodes": 100,
+    "return": 0.0,
+    "success": 0.0
+  },
+  {
+    "map_name": "open25",
+    "reward": "goal",
+    "seed": 4,
+    "episodes": 100,
+    "return": 0.0,
+    "success": 0.0
+  },
+  {
+    "map_name": "open25",
+    "reward": "goal",
+    "seed": 5,
+    "episodes": 100,
+    "return": 0.0,
+    "success": 0.0
+  },
+  {
+    "map_name": "open25",
+    "reward": "goal",
+    "seed": 6,
+    "episodes": 100,
+    "return": 5.5305821569739644e-08,
+    "success": 0.01
+  },
+  {
+    "map_name": "open25",
+    "reward": "goal",
+    "seed": 7,
+    "episodes": 100,
+    "return": 0.0,
+    "success": 0.0
+  },
+  {
+    "map_name": "open25",
+    "reward": "goal",
+    "seed": 8,
+    "episodes": 100,
+    "return": 0.0,
+    "success": 0.0
+  },
+  {
+    "map_name": "open25",
+    "reward": "goal",
+    "seed": 9,
+    "episodes": 100,
+    "return": 0.0,
+    "success": 0.0
+  },
+  {
+    "map_name": "open25",
+    "reward": "step",
+    "seed": 0,
+    "episodes": 100,
+    "return": -19.99994605746921,
+    "success": 0.0
+  },
+  {
+    "map_name": "open25",
+    "reward": "step",
+    "seed": 1,
+    "episodes": 100,
+    "return": -19.99994605746921,
+    "success": 0.0
+  },
+  {
+    "map_name": "open25",
+    "reward": "step",
+    "seed": 2,
+    "episodes": 100,
+    "return": -19.99994605746921,
+    "success": 0.0
+  },
+  {
+    "map_name": "open25",
+    "reward": "step",
+    "seed": 3,
+    "episodes": 100,
+    "return": -19.99994605746921,
+    "success": 0.0
+  },
+  {
+    "map_name": "open25",
+    "reward": "step",
+    "seed": 4,
+    "episodes": 100,
+    "return": -19.99994605746921,
+    "success": 0.0
+  },
+  {
+    "map_name": "open25",
+    "reward": "step",
+    "seed": 5,
+    "episodes": 100,
+    "return": -19.99994605746921,
+    "success": 0.0
+  },
+  {
+    "map_name": "open25",
+    "reward": "step",
+    "seed": 6,
+    "episodes": 100,
+    "return": -19.999945546083904,
+    "success": 0.01
+  },
+  {
+    "map_name": "open25",
+    "reward": "step",
+    "seed": 7,
+    "episodes": 100,
+    "return": -19.99994605746921,
+    "success": 0.0
+  },
+  {
+    "map_name": "open25",
+    "reward": "step",
+    "seed": 8,
+    "episodes": 100,
+    "return": -19.99994605746921,
+    "success": 0.0
+  },
+  {
+    "map_name": "open25",
+    "reward": "step",
+    "seed": 9,
+    "episodes": 100,
+    "return": -19.99994605746921,
+    "success": 0.0
+  },
+  {
+    "map_name": "open10",
+    "reward": "goal",
+    "seed": 0,
+    "episodes": 100,
+    "return": 0.0023444233140110507,
+    "success": 0.26
+  },
+  {
+    "map_name": "open10",
+    "reward": "goal",
+    "seed": 1,
+    "episodes": 100,
+    "return": 0.0013424172681891517,
+    "success": 0.26
+  },
+  {
+    "map_name": "open10",
+    "reward": "goal",
+    "seed": 2,
+    "episodes": 100,
+    "return": 0.0037030039596521306,
+    "success": 0.25
+  },
+  {
+    "map_name": "open10",
+    "reward": "goal",
+    "seed": 3,
+    "episodes": 100,
+    "return": 0.003066435961842292,
+    "success": 0.24
+  },
+  {
+    "map_name": "open10",
+    "reward": "goal",
+    "seed": 4,
+    "episodes": 100,
+    "return": 0.002141134625181756,
+    "success": 0.33
+  },
+  {
+    "map_name": "open10",
+    "reward": "goal",
+    "seed": 5,
+    "episodes": 100,
+    "return": 0.0014415894711536845,
+    "success": 0.27
+  },
+  {
+    "map_name": "open10",
+    "reward": "goal",
+    "seed": 6,
+    "episodes": 100,
+    "return": 0.005809735451415155,
+    "success": 0.29
+  },
+  {
+    "map_name": "open10",
+    "reward": "goal",
+    "seed": 7,
+    "episodes": 100,
+    "return": 0.0012549752222874519,
+    "success": 0.24
+  },
+  {
+    "map_name": "open10",
+    "reward": "goal",
+    "seed": 8,
+    "episodes": 100,
+    "return": 0.004312222287195703,
+    "success": 0.35
+  },
+  {
+    "map_name": "open10",
+    "reward": "goal",
+    "seed": 9,
+    "episodes": 100,
+    "return": 0.0020225196188877383,
+    "success": 0.31
+  },
+  {
+    "map_name": "open10",
+    "reward": "step",
+    "seed": 0,
+    "episodes": 100,
+    "return": -19.955416039560998,
+    "success": 0.26
+  },
+  {
+    "map_name": "open10",
+    "reward": "step",
+    "seed": 1,
+    "episodes": 100,
+    "return": -19.97445415443161,
+    "success": 0.26
+  },
+  {
+    "map_name": "open10",
+    "reward": "step",
+    "seed": 2,
+    "episodes": 100,
+    "return": -19.92960246786851,
+    "success": 0.25
+  },
+  {
+    "map_name": "open10",
+    "reward": "step",
+    "seed": 3,
+    "episodes": 100,
+    "return": -19.941696720401588,
+    "success": 0.24
+  },
+  {
+    "map_name": "open10",
+    "reward": "step",
+    "seed": 4,
+    "episodes": 100,
+    "return": -19.959282300625905,
+    "success": 0.33
+  },
+  {
+    "map_name": "open10",
+    "reward": "step",
+    "seed": 5,
+    "episodes": 100,
+    "return": -19.972570422000594,
+    "success": 0.27
+  },
+  {
+    "map_name": "open10",
+    "reward": "step",
+    "seed": 6,
+    "episodes": 100,
+    "return": -19.889576727226242,
+    "success": 0.29
+  },
+  {
+    "map_name": "open10",
+    "reward": "step",
+    "seed": 7,
+    "episodes": 100,
+    "return": -19.97611447445313,
+    "success": 0.24
+  },
+  {
+    "map_name": "open10",
+    "reward": "step",
+    "seed": 8,
+    "episodes": 100,
+    "return": -19.918032713898256,
+    "success": 0.35
+  },
+  {
+    "map_name": "open10",
+    "reward": "step",
+    "seed": 9,
+    "episodes": 100,
+    "return": -19.961534906894876,
+    "success": 0.31
+  },
+  {
+    "map_name": "detour10",
+    "reward": "goal",
+    "seed": 0,
+    "episodes": 100,
+    "return": 0.0,
+    "success": 0.0
+  },
+  {
+    "map_name": "detour10",
+    "reward": "goal",
+    "seed": 1,
+    "episodes": 100,
+    "return": 0.0,
+    "success": 0.0
+  },
+  {
+    "map_name": "detour10",
+    "reward": "goal",
+    "seed": 2,
+    "episodes": 100,
+    "return": 8.874296289392979e-06,
+    "success": 0.01
+  },
+  {
+    "map_name": "detour10",
+    "reward": "goal",
+    "seed": 3,
+    "episodes": 100,
+    "return": 0.0,
+    "success": 0.0
+  },
+  {
+    "map_name": "detour10",
+    "reward": "goal",
+    "seed": 4,
+    "episodes": 100,
+    "return": 0.0,
+    "success": 0.0
+  },
+  {
+    "map_name": "detour10",
+    "reward": "goal",
+    "seed": 5,
+    "episodes": 100,
+    "return": 0.0,
+    "success": 0.0
+  },
+  {
+    "map_name": "detour10",
+    "reward": "goal",
+    "seed": 6,
+    "episodes": 100,
+    "return": 9.72324412754469e-08,
+    "success": 0.01
+  },
+  {
+    "map_name": "detour10",
+    "reward": "goal",
+    "seed": 7,
+    "episodes": 100,
+    "return": 0.0,
+    "success": 0.0
+  },
+  {
+    "map_name": "detour10",
+    "reward": "goal",
+    "seed": 8,
+    "episodes": 100,
+    "return": 0.0,
+    "success": 0.0
+  },
+  {
+    "map_name": "detour10",
+    "reward": "goal",
+    "seed": 9,
+    "episodes": 100,
+    "return": 0.0,
+    "success": 0.0
+  },
+  {
+    "map_name": "detour10",
+    "reward": "step",
+    "seed": 0,
+    "episodes": 100,
+    "return": -19.99994605746921,
+    "success": 0.0
+  },
+  {
+    "map_name": "detour10",
+    "reward": "step",
+    "seed": 1,
+    "episodes": 100,
+    "return": -19.99994605746921,
+    "success": 0.0
+  },
+  {
+    "map_name": "detour10",
+    "reward": "step",
+    "seed": 2,
+    "episodes": 100,
+    "return": -19.99977798526502,
+    "success": 0.01
+  },
+  {
+    "map_name": "detour10",
+    "reward": "step",
+    "seed": 3,
+    "episodes": 100,
+    "return": -19.99994605746921,
+    "success": 0.0
+  },
+  {
+    "map_name": "detour10",
+    "reward": "step",
+    "seed": 4,
+    "episodes": 100,
+    "return": -19.99994605746921,
+    "success": 0.0
+  },
+  {
+    "map_name": "detour10",
+    "reward": "step",
+    "seed": 5,
+    "episodes": 100,
+    "return": -19.99994605746921,
+    "success": 0.0
+  },
+  {
+    "map_name": "detour10",
+    "reward": "step",
+    "seed": 6,
+    "episodes": 100,
+    "return": -19.999944749478132,
+    "success": 0.01
+  },
+  {
+    "map_name": "detour10",
+    "reward": "step",
+    "seed": 7,
+    "episodes": 100,
+    "return": -19.99994605746921,
+    "success": 0.0
+  },
+  {
+    "map_name": "detour10",
+    "reward": "step",
+    "seed": 8,
+    "episodes": 100,
+    "return": -19.99994605746921,
+    "success": 0.0
+  },
+  {
+    "map_name": "detour10",
+    "reward": "step",
+    "seed": 9,
+    "episodes": 100,
+    "return": -19.99994605746921,
+    "success": 0.0
+  }
+]

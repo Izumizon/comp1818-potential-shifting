@@ -1,0 +1,10 @@
+[project]
+name = "comp1818-gridshift"
+version = "1.0.0"
+description = "Reproducible tabular reward-shaping reconstruction and stationary graph-smoothing study"
+requires-python = ">=3.12"
+dependencies = ["numpy", "matplotlib", "numba"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
